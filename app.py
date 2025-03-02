@@ -73,7 +73,7 @@ def currency_converter(value, from_currency, to_currency):
     else:
         return None
 
-st.title("Professional Converter")
+st.title("QuickConvert")
 category = st.selectbox("Select Category", ["Unit Converter", "Currency Converter"])
 
 if category == "Unit Converter":
